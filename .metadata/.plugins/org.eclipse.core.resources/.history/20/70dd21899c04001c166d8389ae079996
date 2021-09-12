@@ -1,0 +1,21 @@
+package Modifiers;
+
+import AnotherModifier.AnotherModifier;
+
+class PrivateModifier{
+	private String name;
+}
+
+class ProtectedModifier{
+	protected String name;
+}
+
+public class Modifiers {
+public static void main(String args[]) {
+	PrivateModifier p=new PrivateModifier();
+	//p.name=""//cannot acces
+	AnotherModifier am=new AnotherModifier();
+	am.msg();
+	
+}
+}

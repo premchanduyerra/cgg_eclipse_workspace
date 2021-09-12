@@ -1,0 +1,14 @@
+package Inheritance;
+
+class Animal{
+	void eat() {
+		System.out.println("eating");
+	}
+}
+
+
+public class Inheritance {
+public static void main(String args[]) {
+	
+}
+}

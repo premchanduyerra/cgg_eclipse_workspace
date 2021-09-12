@@ -1,0 +1,28 @@
+package Agregation;
+
+ class Employee{
+	String name;
+	int id;
+	Address address;
+	public Employee(int id,String name,Address address) {
+		this.address=address;
+		this.id=id;
+		this.name=name;
+				
+	}
+}
+
+ 
+ void display() {
+	 System.out.println(id);
+ }
+
+
+public class Employee {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

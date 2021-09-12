@@ -1,0 +1,15 @@
+package Interfaces;
+
+abstract class Ex implements Inter {
+
+	public void m1() {
+		System.out.println("in m1");
+	}
+	
+	public void m2() {
+		System.out.println("in m2");
+	}
+	
+	abstract void m3();
+
+}

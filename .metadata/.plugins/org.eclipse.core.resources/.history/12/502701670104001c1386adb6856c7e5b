@@ -1,0 +1,27 @@
+package Wrapper;
+
+public class Wrapper {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+try {
+	Integer i=10;
+	String i1=i.toString();
+	System.out.println(i1.length());
+	if(true)
+	throw new Exception("error using throw block ");
+	int a[]= {1,2,3,4};
+	System.out.println(a[3]);
+	}
+	catch(Exception e) {
+		System.out.println("error  occured:"+e);
+	}
+	finally {
+		System.out.println("finally block");
+	}
+
+
+
+	}
+
+}

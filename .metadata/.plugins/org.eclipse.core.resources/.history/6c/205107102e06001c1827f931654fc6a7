@@ -1,0 +1,26 @@
+package Collections;
+
+import java.util.*;
+import java.util.Iterator;
+
+public class Collections {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ArrayList<Integer> list1= new ArrayList<Integer>();
+		list1.add(11);
+		list1.add(12);
+
+		list1.add(13);
+		list1.add(14);
+		list1.add(15);
+		
+		Iterator<Integer> itr=list1.iterator();
+		
+		
+		System.out.println("array list"+list1);
+
+
+	}
+
+}

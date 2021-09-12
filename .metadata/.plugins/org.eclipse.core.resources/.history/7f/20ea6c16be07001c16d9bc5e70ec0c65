@@ -1,0 +1,33 @@
+package Agregation;
+
+ class Employee1{
+	String name;
+	int id;
+	Address address;
+	public Employee1(int id,String name,Address address) {
+		this.address=address;
+		this.id=id;
+		this.name=name;
+				
+	}
+	
+	void display() {
+		System.out.println(id+" "+name);
+		System.out.println(address.city+" "+address.state);
+
+	}
+}
+
+ 
+ 
+
+
+public class Employee {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Address a1=new Address('prem','prem','prem');
+	}
+
+}

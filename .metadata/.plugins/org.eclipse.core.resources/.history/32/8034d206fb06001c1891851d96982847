@@ -1,0 +1,31 @@
+package Inheritance;
+
+// class Animal{
+//	void eat() {
+//		System.out.println("eating");
+//	}
+//}
+class dog1 extends Animal{
+	void bark() {
+		System.out.println("bark......");
+	}
+}
+
+class cat1 extends dog{
+	void meow() {
+		System.out.println("meow......");
+	}
+}
+
+public class Heirarical {
+public static void main(String args[]) {
+	cat c=new cat();
+	c.eat();
+	c.meow();
+	
+	dog d=new dog();
+	d.bark();
+}
+}
+
+

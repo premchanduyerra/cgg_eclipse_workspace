@@ -1,0 +1,2 @@
+module Constructor_example {
+}

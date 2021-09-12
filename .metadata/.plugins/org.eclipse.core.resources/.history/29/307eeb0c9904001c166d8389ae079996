@@ -1,0 +1,9 @@
+package AnotherModifier;
+
+public class AnotherModifier {
+
+ void msg() {
+	System.out.println("working");
+}
+
+}

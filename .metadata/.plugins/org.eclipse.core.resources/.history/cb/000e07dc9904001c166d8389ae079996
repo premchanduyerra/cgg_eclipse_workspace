@@ -1,0 +1,15 @@
+package AnotherModifier;
+
+public class AnotherModifier {
+
+private void privatemsg() {
+	System.out.println("privatemsg");
+}
+ public void publicmsg() {
+		System.out.println("publicmsg");
+	}
+ protected void proctedtedmsg() {
+		System.out.println("proctedtedmsg");
+	}
+
+}
